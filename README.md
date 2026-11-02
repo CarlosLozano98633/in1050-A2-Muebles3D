@@ -1,4 +1,4 @@
-in1050-A2-Muebles3D
+# in1050-A2-Muebles3D
 
 ### Stability / stable-fast-3d:
 **Diseño de interiores**; a base de una fotografía transformar la imagen *.png* de un mueble a un formato *.obj*, es decir en 3D.
@@ -21,7 +21,7 @@ Es decir en 3D.
 ### Modelo
 | Dato                         | Respuesta                                                                                                                                                                                                            |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Identificador                | [Stabilityai / st[Stabilityai / stable-fast-3d](https://huggingface.co/stabilityai/stable-fast-3d)able-fast-3d ](https://huggingface.co/stabilityai/stable-fast-3d)                                                  |
+| Identificador                | [Stabilityai / stable-fast-3d](https://huggingface.co/stabilityai/stable-fast-3d)                                                  |
 | Tarea                        | Este modelo esta entrenado para generar un  plano 3D desde una imagen.                                                                                                                                               |
 | Número de parámetros         | FP32 / 1B                                                                                                                                                                                                            |
 | Licencia                     | stabilityai-ai-community                                                                                                                                                                                             |
