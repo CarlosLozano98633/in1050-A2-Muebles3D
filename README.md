@@ -34,6 +34,7 @@ Es decir en 3D.
 ```
 
 ### Infraestructura
+
 $$
 \text{Memoria mínima} = 1,000,000,000 \times 4\ \text{bytes} \approx \ 4\text{GB}
 $$
