@@ -1,6 +1,4 @@
-\# Carlos Lozano
-
-
+# Carlos Lozano
 
 Rol del equipo: Crear Repositorio
 
