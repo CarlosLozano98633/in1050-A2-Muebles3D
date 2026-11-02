@@ -26,8 +26,7 @@ A continuación presentamos una tabla comparativa entre los dos modelos.
 |Tarea| Generador de alta fidelidad de **imagen-3D** |
 |Número de Parámetros| ***4B FP32***; aunque marca que en necesidad de hardware necesita una NVIDIA GPU con un mínimo de **24GB de VRAM**|
 |Licencia| Este modelo es lanzado desde la licencia del MIT; el código y la base de datos son compartidas publicamente para facilitar su reproducción e investigación futura.|
-|Limitación (Model Card)|- **Problemas geométricos (pequeños agujeros):** Aunque O-Voxels maneja topologías complejas, las mallas generadas pueden presentar pequeños agujeros o discontinuidades. Para solucionarlo, se proporcionan herramientas de posprocesamiento que permiten rellenarlos y obtener modelos adecuados para impresión 3D.
-**- Modelo base sin alineación:** TRELLIS.2-4B es un modelo preentrenado que no ha sido ajustado mediante preferencias humanas ni optimizado para estilos estéticos específicos. Por ello, los resultados pueden variar según los datos de entrenamiento y es posible que se necesiten varios intentos para conseguir el resultado deseado.|
+|Limitación (Model Card)|- **Problemas geométricos (pequeños agujeros):** Aunque O-Voxels maneja topologías complejas, las mallas generadas pueden presentar pequeños agujeros o discontinuidades. Para solucionarlo, se proporcionan herramientas de posprocesamiento que permiten rellenarlos y obtener modelos adecuados para impresión 3D.                                                                                                             **- Modelo base sin alineación:** TRELLIS.2-4B es un modelo preentrenado que no ha sido ajustado mediante preferencias humanas ni optimizado para estilos estéticos específicos. Por ello, los resultados pueden variar según los datos de entrenamiento y es posible que se necesiten varios intentos para conseguir el resultado deseado.|
 
 ![Imagen del Modelo](docs/img/ImagenTRELLIS.png)
 
