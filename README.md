@@ -42,8 +42,8 @@ $$
 El modelo correra en la misma **CPU**, ya que no cuenta con modelo adaptado en Google Collab por lo que se descargara y se correrá con el hardware local, ya que el modelo no necesita mucha memoria **VRAM**.
 
 ### Riesgo Ético
-- **Riesgo**: Pueden llegar a subir imágenes de personas y convertirlas a 3D **.OBJ** sin consentimiento alguno.
-- **Mitigación:** Con ayuda del profesor, adaptar el código para que identifique rasgos faciales y no realicé un modelado de la persona.
+- **Riesgo**: Pueden llegar a subir imágenes de personas y convertirlas a 3D **.OBJ** sin consentimiento alguno, sin embargo parece ser según la limitación publicada en hugging face, el modelo no es capaz de generar esto; sin embargo pueden existir replicas de llaves u otro tipo de objeto que pueda causar un daño a el externo.
+- **Mitigación:** Con ayuda del profesor, adaptar el código para que identifique rasgos faciales o llaves y no realicé un modelado de la imagen.
 
 ### Cambios respecto a la Fase 1:
 Durante el primer parcial nos comentaron la necesidad de correr el modelo en local, sin embargo por distintas complicaciones no fue posible, el profesor nos comentó que en el próximo parcial, veremos como correrlo en local y adaptarlo a GitHub, en sí mismo el modelo fue utilizado en Spaces dentro de Hugging Face, por lo que conocemos cómo funciona, solamente es correrlo en local.
