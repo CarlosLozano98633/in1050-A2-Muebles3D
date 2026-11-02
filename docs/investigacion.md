@@ -16,6 +16,7 @@ A continuación presentamos una tabla comparativa entre los dos modelos.
 | Número de parámetros | FP32 /1B|
 | Licencia |stabilityai-ai-community |
 | Limitación (Model Card) |El modelo no fue entrenado para hacer representaciones fácticas o verdaderas de personas o eventos. Como tal. el uso del modelo para generar dicho contenido está fuera del alcance de las capacidades de este modelo. |
+
 ![Imagen del modelo](docs/img/ImagenST.png)
 
 
