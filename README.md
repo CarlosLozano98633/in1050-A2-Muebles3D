@@ -38,6 +38,7 @@ Es decir en 3D.
 $$
 \text{Memoria mínima} = 1,000,000,000 \times 4\ \text{bytes} \approx \ 4\text{GB}
 $$
+
 El modelo correra en la misma **CPU**, ya que no cuenta con modelo adaptado en Google Collab por lo que se descargara y se correrá con el hardware local, ya que el modelo no necesita mucha memoria **VRAM**.
 
 ### Riesgo Ético
