@@ -17,7 +17,7 @@ A continuación presentamos una tabla comparativa entre los dos modelos.
 | Licencia |stabilityai-ai-community |
 | Limitación (Model Card) |El modelo no fue entrenado para hacer representaciones fácticas o verdaderas de personas o eventos. Como tal. el uso del modelo para generar dicho contenido está fuera del alcance de las capacidades de este modelo. |
 
-![Imagen del modelo](docs/img/ImagenST.png)
+![Imagen del modelo](img/ImagenST.png)
 
 
 ### TRELLIS.2-4B
@@ -29,6 +29,6 @@ A continuación presentamos una tabla comparativa entre los dos modelos.
 |Licencia| Este modelo es lanzado desde la licencia del MIT; el código y la base de datos son compartidas publicamente para facilitar su reproducción e investigación futura.|
 |Limitación (Model Card)|- **Problemas geométricos (pequeños agujeros):** Aunque O-Voxels maneja topologías complejas, las mallas generadas pueden presentar pequeños agujeros o discontinuidades. Para solucionarlo, se proporcionan herramientas de posprocesamiento que permiten rellenarlos y obtener modelos adecuados para impresión 3D.                                                                                                             **- Modelo base sin alineación:** TRELLIS.2-4B es un modelo preentrenado que no ha sido ajustado mediante preferencias humanas ni optimizado para estilos estéticos específicos. Por ello, los resultados pueden variar según los datos de entrenamiento y es posible que se necesiten varios intentos para conseguir el resultado deseado.|
 
-![Imagen del Modelo](docs/img/ImagenTRELLIS.png)
+![Imagen del Modelo](img/ImagenTRELLIS.png)
 
 Finalmente se eligió el modelo Stability, debido a que necesitaba menos parámetros por lo que es mucho más flexible su uso en dispositivos con menor capacidad de renderizado.
