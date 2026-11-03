@@ -9,6 +9,12 @@ Nuestro publico preferente son los arquitectos y esta **Inteligencia Artificial*
 
 ## 2. Cómo se resuelve hoy
 
+|Alternativas|¿Que ofrece?|Limitaciones|
+|:-----------|:-----------|:-----------|
+|Aplicaciones de paga|Una buena renderización y modelado, mejor mantenimiento|El costo es excesivo, desde $1000 dólares la suscripcion|
+|Modelado Manual|Tu tienes el control de todo, el modelo lo haces desde 0|Muy poca optimizacion, el tiempo que tardas en modelar aumenta drasticamente|
+|otras IA's|Modelado rápido de muebles|A veces no entrega el resultado deseado y tienes un numero limitado de tokens|
+
 ## 3. Por qué con IA y por qué este modelo
 
 El *modelo fue seleccionado* debido a que, el realizar un modelado, en blender por ejemplo de algún mueble o algo en específico, requiere de tiempo y esfuerzo innecesario, que con **Stabilityai/stable-fast-3D** puede realizar en poco tiempo.
