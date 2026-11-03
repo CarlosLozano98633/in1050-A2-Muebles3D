@@ -12,7 +12,7 @@ Este proyecto apoya a los diseñadores de interiores al momento de presentar un 
 | Jorge Santiago Juárez Oliva | Investigación |
 
 ### Problemática:
-Diseñadores de interiores; presentación actual de proyectos simple; [Documentación](docs/investigación.md)
+Diseñadores de interiores; presentación actual de proyectos simple; [Documentación](docs/investigacion.md)
 
 ### Caso de uso:
 El usuario enfocado al objetivo de nuestro proyecto; Diseñador de Interiores, brinda una imagen ,png del mueble y el modelo regresa esa imagen en .obj.
