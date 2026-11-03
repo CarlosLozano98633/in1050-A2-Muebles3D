@@ -1,5 +1,10 @@
+# Investigación de la Problemática
+## 1. El problema
+
+## 2. Cómo se resuelve hoy
 
 ## 3. Por qué con IA y por qué este modelo
+
 El *modelo fue seleccionado* debido a que, el realizar un modelado, en blender por ejemplo de algún mueble o algo en específico, requiere de tiempo y esfuerzo innecesario, que con **Stabilityai/stable-fast-3D** puede realizar en poco tiempo.
 
 Sin embargo, nuestro modelo no es el único, por ejemplo en **Hugging Face** teníamos varias opciones, por ejemplo:
@@ -32,3 +37,18 @@ A continuación presentamos una tabla comparativa entre los dos modelos.
 ![Imagen del Modelo](img/ImagenTRELLIS.png)
 
 Finalmente se eligió el modelo Stability, debido a que necesitaba menos parámetros por lo que es mucho más flexible su uso en dispositivos con menor capacidad de renderizado.
+
+## 4. Usuarios y Requisitos
+## 5. Impacto Ético
+
+El modelo Stable Fast 3D recibe una imagen de un objeto, la procesa para generar un modelo en 3D, el riesgo se encuentra no en lo que generé el modelo, sino en las imágenes que puedan llegar a proporcionar los usuarios.
+Ejemplo:
+
+
+
+
+## 6. Referencias
+
+
+#### Privacidad de los datos
+
