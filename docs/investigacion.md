@@ -1,6 +1,12 @@
 # Investigación de la Problemática
 ## 1. El problema
 
+El problema principal de el modelaje 3D para interiores es el tiempo, es un proceso demasiado tardado, llegando a tardar hasta 3 o 6 horas por mueble según estadísticas de [Homestyler](https://es.homestyler.com/article/trends/how-long-does-d-modeling-take-understanding-timeframes-for-i).
+
+Diversos análisis de eficiencia en firmas de arquitectura (como Business Research Insights y reportes de la industria CAD) destacan que la fase de modelado y preparación consume hasta un 30%-40% del tiempo total dedicado al diseño de un proyecto de interiores.
+
+Nuestro publico preferente son los arquitectos y esta **Inteligencia Artificial** busca resolver y optimizar todo este tiempo perdido, para que con una simple fotografía puedan modelar dichos muebles
+
 ## 2. Cómo se resuelve hoy
 
 ## 3. Por qué con IA y por qué este modelo
