@@ -17,7 +17,7 @@ A continuación presentamos una tabla comparativa entre los dos modelos.
 | Licencia |stabilityai-ai-community |
 | Limitación (Model Card) |El modelo no fue entrenado para hacer representaciones fácticas o verdaderas de personas o eventos. Como tal. el uso del modelo para generar dicho contenido está fuera del alcance de las capacidades de este modelo. |
 
-![Imagen del modelo](in1050-A2-Muebles3D/docs/img/ImagenST.png)
+![Imagen del modelo](docs/img/ImagenST.png)
 
 
 ### TRELLIS.2-4B
