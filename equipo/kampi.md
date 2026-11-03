@@ -2,7 +2,5 @@
 
 
 
-Rol en el proyecto: Pendiente
-
-
+Rol en el proyecto: Ivestigación del Modelo / Cálculo de VRAM necesaria
 
