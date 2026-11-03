@@ -60,16 +60,16 @@ Finalmente se eligió el modelo Stability, debido a que necesitaba menos paráme
 ### Requisitos del sistema
 
 #### Requisitos Funcionales 
-* **1 - Conversión 2D a 3D por IA:** El sistema debe integrar el modelo [Stabilityai/stable-fast-3d](https://huggingface.co/stabilityai/stable-fast-3d)` para procesar una imagen de entrada y generar un plano o volumen en 3D automáticamente.
-* **2 - Carga de imágenes:** El sistema debe permitir al usuario subir archivos de imagen (JPG, PNG) de planos o borradores 2D para ser procesados.
-* **3 - Visualización y exportación 3D:** El sistema debe permitir previsualizar e interactuar con el modelo 3D resultante generado por la IA.
-* **4 - Restricción de contenido no permitido:** El sistema debe aplicar filtros para validar que las imágenes subidas correspondan a planos o espacios de diseño de interiores, respetando las limitaciones del modelo sobre personas o eventos reales.
+**1 - Conversión 2D a 3D por IA:** El sistema debe integrar el modelo [Stabilityai/stable-fast-3d](https://huggingface.co/stabilityai/stable-fast-3d)` para procesar una imagen de entrada y generar un plano o volumen en 3D automáticamente.
+**2 - Carga de imágenes:** El sistema debe permitir al usuario subir archivos de imagen (JPG, PNG) de planos o borradores 2D para ser procesados.
+**3 - Visualización y exportación 3D:** El sistema debe permitir previsualizar e interactuar con el modelo 3D resultante generado por la IA.
+**4 - Restricción de contenido no permitido:** El sistema debe aplicar filtros para validar que las imágenes subidas correspondan a planos o espacios de diseño de interiores, respetando las limitaciones del modelo sobre personas o eventos reales.
 
-#### Requisitos No Funcionales (RNF)
-* **1 - Precisión y capacidad del modelo:** El sistema debe operar con la configuración del modelo a 1B de parámetros (FP32) para mantener el equilibrio entre velocidad de inferencia y calidad tridimensional.
-* **2 - Tiempo de generación:** El modelo debe procesar la imagen y retornar la estructura 3D en pocos segundos (generación rápida).
-* **3 - Licencia y cumplimiento:** El uso y distribución de la funcionalidad dentro de la plataforma debe estar alineado con los términos de la licencia *Comunidad StabilityAI-AI*.
-* **4 - Delimitación del alcance (Tarjeta de Modelo):** El sistema no debe utilizarse para intentar reconstruir representaciones fácticas de personas o eventos en vivo, manteniéndose exclusivamente dentro del alcance de espacios arquitectónicos y de diseño.
+#### Requisitos No Funcionales 
+**1 - Precisión y capacidad del modelo:** El sistema debe operar con la configuración del modelo a 1B de parámetros (FP32) para mantener el equilibrio entre velocidad de inferencia y calidad tridimensional.
+**2 - Tiempo de generación:** El modelo debe procesar la imagen y retornar la estructura 3D en pocos segundos (generación rápida).
+**3 - Licencia y cumplimiento:** El uso y distribución de la funcionalidad dentro de la plataforma debe estar alineado con los términos de la licencia *Comunidad StabilityAI-AI*.
+**4 - Delimitación del alcance (Tarjeta de Modelo):** El sistema no debe utilizarse para intentar reconstruir representaciones fácticas de personas o eventos en vivo, manteniéndose exclusivamente dentro del alcance de espacios arquitectónicos y de diseño.
   
 ## 5. Impacto Ético
 
