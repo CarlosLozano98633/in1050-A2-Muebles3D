@@ -40,7 +40,7 @@ A continuación presentamos una tabla comparativa entre los dos modelos.
 ### TRELLIS.2-4B
 |**Dato**|**Respuesta**|
 |---|---|
-|Identificador| TRELLIS.2-4B|
+|Identificador| [TRELLIS.2-4B](https://huggingface.co/microsoft/TRELLIS.2-4B)|
 |Tarea| Generador de alta fidelidad de **imagen-3D** |
 |Número de Parámetros| ***4B FP32***; aunque marca que en necesidad de hardware necesita una NVIDIA GPU con un mínimo de **24GB de VRAM**|
 |Licencia| Este modelo es lanzado desde la licencia del MIT; el código y la base de datos son compartidas publicamente para facilitar su reproducción e investigación futura.|
@@ -113,11 +113,34 @@ El modelo fue diseñado para que pudiera generar modelos tridimensionales en muy
 Tarda según su página oficial, 0.5 segundos en generar un modelo, dónde utiliza aproximadamente 6 GB de memoria VRAM.
 
 El modelo al ser ligero, se puede correr de manera local, por lo que existen varias alternativas; sin embaro en nuestro proyecto sería unicamente en local:
-La ventaja 
+La ventaja conciste en  un mayor control sobre los datos y no se necesita mantener una conexión permanente con un servidor de inferencia.
 
+Dentro del modelo de Stable Fast 3D, no existe una medición oficial de kWh consumida en el modelo Stable Fast 3D, sin embargo con uso de inteligencia artificial realizamos una aproximación de 0.057 Wh cuando se utiliza una RTX 4090 y es un modelado sencillo de 0.5 segundos.
+Aunque realmente es solo una aproximación.
+
+### Relación con la encíclica *Magnifíca Humanitas *:
+A base de la investigación de la encíclica realizada en primer parcial, *Magnífica Humanitas* aborda la importancia de desarrollar y utilizar la IA sin comprometer la dignidad humana.
+Por lo que Stable Fast 3D se relaciona con los siguientes apartados:
+|**Planteamiento de la encíclica**|**Aplicación a Stable Fast 3D**|
+|-----|-----|
+|Dignidad y privacidad humana|Proteger las imágenes y evitar la exposición de información personal|
+|Reconocimiento de Sesgos| Reconocer que los datos de entrenamiento pueden contener limitaciones y representaciones iguales|
+|Responsabilidad Humana| Los desarrolladores y usuarios deben responder por las consecuencias de utilizar el modelo|
+|Sostenibilidad Ambiental|Considerar el consumo eléctrico y los recursos necesarios para ejecutar el modelo|
+|Transparencia y Supervisión| Informar sobre las limitaciones del modelo y verificar los resultados antes de utilizarlos|
+
+### Conclusión
+Por lo que podemos concluir que nuestro proyecto puede representar una valiosa herramienta para los diseñadores de interiores, sin embargo hay que utilizarse con responsabilidad, todo esto desde la perspectiva de *Magnífica Humanitas*  es decir este avance tecnológico debe de estar acompañado  de responsabilidad, y respeto por la dignidad humana.
 
 ## 6. Referencias
+[Homestyler](https://es.homestyler.com/article/trends/how-long-does-d-modeling-take-understanding-timeframes-for-i).
 
+[Stabilityai/stable-fast-3d](https://huggingface.co/stabilityai/stable-fast-3d)
 
-#### Privacidad de los datos
+[TRELLIS.2-4B](https://huggingface.co/microsoft/TRELLIS.2-4B)
+
+[Stabilityai/stable-fast-3d GIT](https://github.com/Stability-AI/stable-fast-3d?ref)
+
+[Magnifica Humanitas](https://www.vatican.va/content/leo-xiv/es/encyclicals/documents/20260515-magnifica-humanitas.html)
+
 
