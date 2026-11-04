@@ -79,10 +79,41 @@ Finalmente se eligió el modelo Stability, debido a que necesitaba menos paráme
   
 ## 5. Impacto Ético
 
+### Privacidad de los datos: 
+
 El modelo Stable Fast 3D recibe una imagen de un objeto, la procesa para generar un modelo en 3D, el riesgo se encuentra no en lo que generé el modelo, sino en las imágenes que puedan llegar a proporcionar los usuarios.
 Ejemplo:
+- Fotografía de algún objeto que podría contener accidentalmente información personal, de documentos o elementos privados
 
+Algunas medidas que se pueden aplicar para proteger la privacidad, pueden ser por parte del usuario; como evitar tomar fotografías con documentos personales, rostros o información confidencial
 
+Sin embargo dentro del proyecto se pretende correr el modelo en Local, por lo cual, no se estarían mandando las imágenes a un servidor, si no que se correrían totalmente dentro de la computadora personal del usuario.
+
+### Sesgos que podría heredar el modelo:
+
+El modelo funciona a base de una fuente de datos llamada **Objaverse**, el cual contiene cientos de miles de objetos tridimensionales, sin embargo esto no significa que el modelo no presente sesgos:
+
+#### Posibles Sesgos:
+|** Sesgo **| **Situación** | **¿A quién perjudicaria?** |
+|----|-----|-----|
+| **Sesgo Cultural** |El modelo podría construir mejor los objetos comunes queobjetos artesanales o no tan comúnes que pertenezcan a cierta cultura.|Artesanos, diseñadores, público en general (dependiendo del proyecto)|
+| **Sesgo de Representación** | Objetos poco frecuentes puede llevar a reconstrucciones menos precisas.| Diseñadores que trabajen con objetos muy específicos.|
+| **Sesgo de Materiales** | Podría interpretar los materiales transparentes o reflectantes por lo que puede llevar a una mala construcción del modelo | Diseladores de interiores|
+|**Sesgo de Iluminación**| Fotografías con sombras, reflejos, o condiciones de iluminación que puedan llegar a producir resultados incorrectos | Cualquier persona que no cuente con un espacio adecuado para tomar la foto.|
+
+El problema de estos sesgos recae; en que el modelo realiza el objeto en 3D a base de una sola imagen, por lo que puede generar partes, o completar partes sin suficientes datos, por lo que no corresponderían al objeto original.
+
+### ¿Quién responde si el modelo se equivoca?
+En el caso de este proyecto los responsables seríamos nosotros como desarrolladores, lo que se está (pretendiendo) lanzando al mercado debería de ser seguro y probado cientos de veces antes de publicarse.
+
+En caso de que el modelo se utilice, de manera independiente, sin que sea parte de nuestro proyecto, la responsabilidad caería sobre los desarrolladores del modelo.
+
+### ¿Costo energético de la infraestructura?
+El modelo fue diseñado para que pudiera generar modelos tridimensionales en muy poco tiempo; 
+Tarda según su página oficial, 0.5 segundos en generar un modelo, dónde utiliza aproximadamente 6 GB de memoria VRAM.
+
+El modelo al ser ligero, se puede correr de manera local, por lo que existen varias alternativas; sin embaro en nuestro proyecto sería unicamente en local:
+La ventaja 
 
 
 ## 6. Referencias
